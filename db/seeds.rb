@@ -24,4 +24,4 @@ Car.create! name: 'Eclipse', make_id: 2
 Car.create! name: 'Outlander', make_id: 2
 Car.create! name: 'Lancer', make_id: 2
 
-Car.create! name: 'Mustang', make_id: 4
+Car.create! name: 'Mustang', make_id: 3
