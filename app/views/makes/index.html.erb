@@ -1,0 +1,26 @@
+<h2>Cars Makes</h2>
+	<table style="width:25%">
+	  <tr>
+	    <th>Make</th>
+	    <th>Car</th> 
+	  </tr>
+		<% @makes_with_cars.each do |data| %>
+		<tr>
+			<td><%= data.make.name %></td>
+			<td><%= data.name %></td>
+	  </tr>
+		<% end %>
+	</table>
+
+<h2>Makes</h2>
+<% @makes.each do |make| %>
+	<%= make.id %>
+	<%= make.name %><br/>
+<% end %>
+
+<h2>Cars</h2>
+<% @cars.each do |car| %>
+	<%= car.id %>
+	<%= car.name %><br/>
+<% end %>
+
