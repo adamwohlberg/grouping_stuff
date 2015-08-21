@@ -1,0 +1,1 @@
+**Practice translating SQL subqueries into Active Record joins**
